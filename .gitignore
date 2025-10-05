@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Google Cloud
+*.json       # jeśli trzymasz pliki z credentials lokalnie
+*.zip        # build artifacts z Cloud Run / Cloud Build
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary / cache files
+*.swp
+*.tmp
